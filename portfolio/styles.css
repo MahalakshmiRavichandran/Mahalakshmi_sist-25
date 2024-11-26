@@ -1,0 +1,85 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .navbar {
+    background-color: #4a90e2;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar ul li {
+    margin: 0;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: #357ab7;
+  }
+  
+  .resume {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  header.profile {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header.profile h1 {
+    font-size: 2em;
+    color: #4a90e2;
+  }
+  
+  .contact, .education, .skills, .projects, .recognition {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #4a90e2;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  p, li {
+    font-size: 1em;
+    line-height: 1.6;
+  }
